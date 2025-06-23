@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>แบบฟอร์มโหวตเจ้าหน้าที่</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap');
+
+    body {
+      font-family: 'Sarabun', sans-serif;
+      background: linear-gradient(to right, #e3f2fd, #ffffff);
+      color: #1a237e;
+      margin: 0;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 2rem 2.5rem;
+      box-shadow: 0 8px 24px rgba(33, 150, 243, 0.3);
+    }
+
+    h1 {
+      text-align: center;
+      color: #0d47a1;
+      margin-bottom: 2rem;
+    }
+
+    label {
+      display: block;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+
+    select {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #90caf9;
+      border-radius: 10px;
+      font-size: 1rem;
+      background-color: #e3f2fd;
+      color: #0d47a1;
+    }
+
+    button {
+      margin-top: 2rem;
+      background-color: #0d47a1;
+      color: white;
+      padding: 0.75rem;
+      font-size: 1.1rem;
+      width: 100%;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #1565c0;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+      .container {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>แบบฟอร์มโหวตเจ้าหน้าที่</h1>
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSdoic9hmEjaQaS8nz5wsQ8Nmw4K4KzpGcKISUcBAv703rYS4Q/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+      
+      <label for="month">ส่วนที่ 1: สำหรับการประชุมประจำเดือน (ประจำปีงบประมาณ พ.ศ. 2568)</label>
+      <select name="entry.1234567890" id="month" required>
+        <option value="" disabled selected>-- เลือกเดือน --</option>
+        <option>ตุลาคม 2567</option>
+        <option>พฤศจิกายน 2567</option>
+        <option>ธันวาคม 2567</option>
+        <option>มกราคม 2568</option>
+        <option>กุมภาพันธ์ 2568</option>
+        <option>มีนาคม 2568</option>
+        <option>เมษายน 2568</option>
+        <option>พฤษภาคม 2568</option>
+        <option>มิถุนายน 2568</option>
+        <option>กรกฎาคม 2568</option>
+        <option>สิงหาคม 2568</option>
+        <option>กันยายน 2568</option>
+      </select>
+
+      <label for="staff">ส่วนที่ 2: การโหวต เลือกเจ้าหน้าที่ที่ท่านต้องการโหวต</label>
+      <select name="entry.0987654321" id="staff" required>
+        <option value="" disabled selected>-- เลือกเจ้าหน้าที่ --</option>
+        <option>นางสาวณัฐนุช  อำขำ พนักงานคุมประพฤติชำนาญการ</option>
+        <option>นายสมบัติ นุผัด นักวิชาการอบรมและฝึกวิชาชีพชำนาญการ</option>
+        <option>นายสัณหณัฐ  ตระการบุญ นักจิตวิทยาคลินิกชำนาญการ</option>
+        <option>นายจีรศักดิ์ มาหลัง พนักงานคุมประพฤติชำนาญการ</option>
+        <option>นายรพีภัทร  ฐิติอุดมพัฒน์ พนักงานคุมประพฤติชำนาญการ</option>
+        <option>นายชัยวัฒน์  จินะตา นักวิชาการอบรมและฝึกวิชาชีพชำนาญการ</option>
+        <option>นางสาวกัลยารัตน์ โสภณจิตร นักจัดการงานทั่วไปปฏิบัติการ</option>
+        <option>นายยงยุทธ  แววงาม นักวิชาการอบรมและฝึกวิชาชีพ</option>
+        <option>นายสุริยา  รุ่งเรือง นักสังคมสงเคราะห์</option>
+        <option>นางสาวทิพย์อักษร เทือกธรรมมา นักสังคมสงเคราะห์</option>
+        <option>นายณัฐกร  วรรณจักร์ นักจัดการงานทั่วไป</option>
+        <option>นางสาวอัญชลี  ขันเขื่อน นักจัดการงานทั่วไป</option>
+        <option>นางสาวดรุณี  วังศรี นักวิชาการเงินและบัญชี</option>
+        <option>นางสาวธัญวรัตม์ คำรังสี นักจิตวิทยา</option>
+        <option>นางสาวสุตินา  ทาตรี เจ้าพนักงานธุรการ</option>
+        <option>นายไพรัตน์  พรมเทศ พนักงานพินิจ</option>
+        <option>นายอนันต์  ใจจุมปู พนักงานพินิจ</option>
+        <option>ว่าที่ ร.ต.สันติ  กันธิยะ พนักงานพินิจ</option>
+        <option>นายศรัณยู  ถิ่นแฝง พนักงานพินิจ</option>
+        <option>นางสาวหทัยทิพย์ อุปรนัน พนักงานพินิจ</option>
+        <option>นายนาถพล  พรมเทศ พนักงานพินิจ</option>
+        <option>นายนที  นามวงค์ พนักงานพินิจ</option>
+        <option>ว่าที่ ร.ต.รังสรรค์ ทะริยะ พนักงานพินิจ</option>
+        <option>นายสุรศักดิ์ ใจมิภักดิ์ พนักงานพินิจ</option>
+        <option>นายศุภรัตน์ คงคะพันธ์ พนักงานพินิจ</option>
+        <option>นายสุรศักดิ์ ใจมิภักดิ์ พนักงานพินิจ</option>
+        <option>นายทินกร เมืองมูล พนักงานพินิจ</option>
+        <option>นายวัชราวุธ เครืออินทร์ พนักงานพินิจ</option>
+        <option>นางสาวทัศณี อิ่นแก้วน่าน พนักงานพิทักษ์</option>
+        <option>นายธนนท์  สิงห์แก้ว พนักงานขับรถยนต์</option>
+        <option>นายปาณชัย  เวียงนาค พนักงานขับรถยนต์</option>
+        <option>นายอนุสรณ์  มโนชัย พนักงานรักษาความปลอดภัย</option>
+        <option>นายดวงดี จันทร์ทิพย์ พนักงานรักษาความปลอดภัย</option>
+        <option>นางพูนสุข ไชยมงคล พนักงานสถานที่</option>
+      </select>
+
+      <button type="submit">ส่งแบบฟอร์ม</button>
+    </form>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+  </div>
+</body>
+</html>
